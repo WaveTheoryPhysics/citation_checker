@@ -292,3 +292,17 @@ The tool makes up to 3 API calls per reference with small delays to avoid rate l
 Just replace `python` with `python3` in all commands above. Everything else is identical.
 
 ---
+
+## License
+
+This project is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+**You are free to:**
+- Use, copy, and adapt this tool for academic research, teaching, and personal projects
+- Share and redistribute it with attribution
+
+**Under the following terms:**
+- **Attribution** — cite the original repository and author (D. Banasik) in any publication or derivative work
+- **NonCommercial** — commercial use, including integration into paid products or services, requires explicit written permission from the author
+
+For commercial licensing inquiries, open an issue in this repository.
