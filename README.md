@@ -22,6 +22,15 @@ For each reference you give it, the tool:
 
 ---
 
+## Limitations
+
+- The tool checks whether a paper *exists* with that title, and whether the authors and year *match*. It cannot check whether a real paper actually supports the claim it is cited for — that remains an open research problem.
+- Coverage is best for English-language journal articles indexed by Semantic Scholar, CrossRef, or OpenAlex. Theses, book chapters, reports, and non-English sources may not be found even if they are real.
+- Roughly 1–2% of real papers may show as NOT_FOUND due to indexing gaps or unusual title formatting.
+- For very large .bib files (hundreds of entries), the run time is long due to API rate limits. Consider running overnight or checking a suspicious subset first.
+
+---
+
 ## Step 1 — Check if Python is installed
 
 Open a terminal:
@@ -283,10 +292,3 @@ The tool makes up to 3 API calls per reference with small delays to avoid rate l
 Just replace `python` with `python3` in all commands above. Everything else is identical.
 
 ---
-
-## Limitations
-
-- The tool checks whether a paper *exists* with that title, and whether the authors and year *match*. It cannot check whether a real paper actually supports the claim it is cited for — that remains an open research problem.
-- Coverage is best for English-language journal articles indexed by Semantic Scholar, CrossRef, or OpenAlex. Theses, book chapters, reports, and non-English sources may not be found even if they are real.
-- Roughly 1–2% of real papers may show as NOT_FOUND due to indexing gaps or unusual title formatting.
-- For very large .bib files (hundreds of entries), the run time is long due to API rate limits. Consider running overnight or checking a suspicious subset first.
