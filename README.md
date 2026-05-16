@@ -3,6 +3,7 @@
 A Python tool that checks whether the references in a scientific paper actually exist — and whether the author names and year are correct. Useful for auditing AI-assisted writing, where hallucinated citations are increasingly common.
 
 Based on the methodology of Zhao et al. (2025), *"LLM hallucinations in the wild: Large-scale evidence from non-existent citations"*.
+https://doi.org/10.48550/arXiv.2605.07723
 
 ---
 
